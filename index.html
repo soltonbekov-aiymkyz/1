@@ -13,29 +13,27 @@
   </div>
 
   <div class="example-2">
-    <h2>on </h2>
-    <button>increase</button>
+    <h2>0 </h2>
+    <button id="i">increase</button>
   </div>
 
 
 
     <script >
-        /*
+        
  let state = true;
  document.querySelector('#example-1 button').addEventListener('click',function(){
      state =!state; //! znat deelaet ego false esli eto rovnyalse false to stanet true
      document.querySelector('#example-1 h1').innerText=state ? "on "  : "off";
  });
-*/
 
 
- let state = true;
+
+ let counter = 0;
  document.querySelector('#example-2 button').addEventListener('click',function(){
-     state =!state; 
-     document.querySelector('#example-2 h2').innerText=state ? "on "  : "off";
+     counter++;
+     document.querySelector('#example-2 h2').innerText=counter;
  });
-
-
 
 
     </script>

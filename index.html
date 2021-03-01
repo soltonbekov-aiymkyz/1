@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="example-1">
+    <h1>on </h1>
+    <button>toggle</button>
+  </div>
+
+  <div class="example-2">
+    <h2>on </h2>
+    <button>increase</button>
+  </div>
+
+
+
+    <script >
+        /*
+ let state = true;
+ document.querySelector('#example-1 button').addEventListener('click',function(){
+     state =!state; //! znat deelaet ego false esli eto rovnyalse false to stanet true
+     document.querySelector('#example-1 h1').innerText=state ? "on "  : "off";
+ });
+*/
+
+
+ let state = true;
+ document.querySelector('#example-2 button').addEventListener('click',function(){
+     state =!state; 
+     document.querySelector('#example-2 h2').innerText=state ? "on "  : "off";
+ });
+
+
+
+
+    </script>
+</body>
+</html>
